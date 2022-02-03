@@ -8,6 +8,8 @@ Simple visual novel.
 ## How to Run
 
 ```bash
+$ pip(3) install pygame=2.1.0
+
 $ python(3) game.py
 ```
 
