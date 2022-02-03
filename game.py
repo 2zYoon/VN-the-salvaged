@@ -202,9 +202,9 @@ def change_bgm(bgm_new, fadeout=-1, donotchange=False):
         if not donotchange:
             bgm = bgm_new
         try:
-            pygame.mixer.music.load(DIR_BGM + "{}.mp3".format(bgm_new))
+            pygame.mixer.music.load( DIR_BGM + "{}.mp3".format(bgm_new))
         except:
-            pygame.mixer.music.load(DIR_BGM + "{}.wav".format(bgm_new))
+            pygame.mixer.music.load( DIR_BGM + "{}.wav".format(bgm_new))
         pygame.mixer.music.play(-1)
 
 
