@@ -2,7 +2,7 @@
 Simple visual novel.
 
 ## Requirements
-
+- `python` (3.9.10에서 테스트 됨.)
 - `pygame` (2.1.0에서 테스트 됨.)
 
 ## How to Run
